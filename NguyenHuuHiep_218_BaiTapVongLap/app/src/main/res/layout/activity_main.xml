@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài tập vòng lặp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnBai1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 1: In các số từ 1 đến 10" />
+
+        <Button
+            android:id="@+id/btnBai2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 2: Tính tổng 1 + 2 + ... + 100"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnBai3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 3: In các số chẵn từ 1 đến 20"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xóa kết quả"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:background="#F0F0F0"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>
